@@ -1,0 +1,214 @@
+
+/* font-family: 'Itim', cursive;
+font-family: 'Jura', sans-serif;
+font-family: 'Kaisei Decol', serif; */
+
+body {
+	padding: 50px 25px;
+	background: #000;
+	display: flex;
+	flex-direction: column;
+  align-items: center;
+}
+.container {
+	width: 428px;
+	display: flex;
+	flex-direction: column;
+  align-items: center;
+}
+.photo {
+	display: flex;
+	flex-direction: column;
+  align-items: center;
+}
+
+/* --------------посилання----------- */
+
+.link {
+	margin-bottom: 55px;
+}
+.link_mob-ul {
+  display: flex;
+  justify-content: center;
+}
+.link_mob-li-icon {
+	width: 40px;
+	height: 40px;
+}
+.link_mob-li-icon:not(:last-child) {
+	margin-right: 20px;
+}
+.svg {
+	width: 40px;
+	height: 40px;
+}
+.link_mob-a-icon {
+	display: flex;
+	background-color: #fff;
+	border-radius: 50%;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.link_mob-a-icon:hover, .link_mob-a-icon:focus {
+	background-color: #78FF43;
+}
+
+/* ------------ текст клік --------- */
+
+.text_click {
+	width: 310px;
+	color: #fff;
+	font-family: Jura;
+font-size: 26px;
+font-weight: 400;
+line-height: 31px;
+letter-spacing: 0em;
+text-align: center;
+margin-bottom: 50px;
+}
+.arrow {
+	position: absolute;
+	top: 214px;
+}
+.button {
+	position: absolute;
+	top: 315px;
+  width: 69px;
+  height: 82px;
+	border-radius: 50px;
+}
+.sashundyk {
+	width: 428px; 
+	height: 396px;
+}
+.div_text {
+	color: #fff;
+	width: 333px;
+	margin-top: 55px;
+}
+.name {
+	font-family: Kaisei Decol;
+font-size: 36px;
+font-weight: 700;
+line-height: 52px;
+letter-spacing: 0em;
+margin-bottom: 10px;
+/* text-align: center; */
+}
+.ep {
+	font-family: Jura;
+font-size: 30px;
+font-weight: 400;
+line-height: 35px;
+letter-spacing: 0em;
+/* text-align: center; */
+margin-bottom: 10px;
+}
+.text-p {
+	font-family: Jura;
+font-size: 24px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 20px;
+}
+.marg_p {
+	margin-bottom: 50px;
+}
+
+@media screen and (min-width: 768px) {
+	.container {
+		width: 768px;
+	}
+	.link_mob {
+		margin-bottom: 40px;
+	}
+	.link_mob-li-icon {
+		width: 60px;
+		height: 60px;
+	}
+	.link_mob-li-icon:not(:last-child) {
+		margin-right: 40px;
+	}
+	.svg {
+		width: 60px;
+		height: 60px;
+	}
+	.text_click {
+	margin-bottom: 40px;
+	}
+	.button {
+		width: 85px;
+		height: 100px;
+	}
+	.sashundyk {
+		width: 513px; 
+		height: 456px;
+	}
+	.div_text {
+		width: 513px;
+	}
+}
+
+@media screen and (min-width: 1158px) { 
+	body {
+		padding: 75px 25px;
+		justify-content: center;
+    align-items: center;
+	}
+	.container {
+		width: 1158px;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-auto-flow: column; 
+	}
+	.link_mob-ul {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+	}
+	.link {
+    grid-column: 3; /* Переміщення першого елемента в третю колонку */
+}
+.div_text {
+    grid-column: 1; /* Переміщення третього елемента в першу колонку */
+}
+.div_text {
+	margin-top: 0;
+	margin-right: 50px;
+	width: 320px;
+}
+.text_click {
+	width: 380px;
+	font-size: 36px;
+	margin-bottom: 80px;
+}
+.sashundyk {
+	width: 513px; 
+	height: 456px;
+}
+.photo {
+	margin-right: 200px;
+}
+.link {
+	margin-bottom: 0px;
+}
+.link_mob-li-icon {
+	width: 90px;
+	height: 90px;
+}
+.link_mob-li-icon:not(:last-child) {
+	margin-right: 0px;
+	margin-bottom: 35px;
+}
+.svg {
+	width: 90px;
+	height: 90px;
+}
+}
